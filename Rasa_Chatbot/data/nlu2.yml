@@ -1,0 +1,17 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+- intent: restaurant_search
+  examples: |
+    - search something in [mumbai](location)
+    - [North Indian](cuisine)
+    - search something in [hyderabad](location)
+    - [South Indian](cuisine)
+- intent: goodbye
+  examples: |
+    - stop
+- intent: stop
+  examples: |
+    - continue
