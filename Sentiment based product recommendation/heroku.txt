@@ -1,0 +1,8 @@
+heroku login
+
+git checkout deploynlp
+
+git add .
+git commit -m "FinalVersion"
+git push heroku deploynlp:main
+heroku ps:scale web=1
